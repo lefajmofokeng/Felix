@@ -8,6 +8,8 @@ This component delivers a horizontal card slider designed specifically for newsr
 
 The architecture separates structure from presentation completely. HTML handles markup, CSS manages all visual treatment and transitions, and a minimal JavaScript layer provides navigation control. No frameworks, no dependencies, no build process required.
 
+<img width="1588" height="1359" alt="lefajmofokeng github io_Felix_" src="https://github.com/user-attachments/assets/f9d5f79d-8a4e-457d-bc14-464838d910fd" />
+
 ## Live Deployment
 
 [Preview Live Demo](https://lefajmofokeng.github.io/Felix)
