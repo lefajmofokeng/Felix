@@ -139,5 +139,3 @@ This component is provided as-is for use in personal and commercial projects. Mo
 ## Credits
 
 Designed and developed with attention to the details that separate functional interfaces from memorable ones. Built for the web as it exists today, not as frameworks imagine it should be.
- 
- 
