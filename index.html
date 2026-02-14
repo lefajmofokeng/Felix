@@ -1,0 +1,101 @@
+<link rel="stylesheet" href="visuals.css"/>
+
+<section class="it-global-section">
+  <header class="it-global-header">
+    <div class="it-global-label">+ Newsroom</div>
+    <h1 class="it-global-h1">
+      <span style="color: #000;">Updates that move</span>
+      <span>the world forward</span>
+    </h1>
+  </header>
+
+  <div class="it-global-slider-container">
+    <div class="it-global-track" id="itTrack">
+      
+      <div class="it-global-card">
+        <div class="it-global-card-img" style="background-image: url('https://images.pexels.com/photos/31216387/pexels-photo-31216387.jpeg');"></div>
+        <div class="it-global-card-overlay"></div>
+        <div class="it-global-card-content">
+          <div>
+            <span class="it-global-tag">NEWS</span>
+            <h3 class="it-global-card-title">Global IT infrastructure expands across South Africa</h3>
+          </div>
+          <div class="it-global-footer">
+            <span class="it-global-meta">February 13, 2026</span>
+            <span class="it-global-meta">4 min read</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="it-global-card">
+        <div class="it-global-card-img" style="background-image: url('https://images.pexels.com/photos/31216390/pexels-photo-31216390.jpeg');"></div>
+        <div class="it-global-card-overlay"></div>
+        <div class="it-global-card-content">
+          <div>
+            <span class="it-global-tag">NEWS</span>
+            <h3 class="it-global-card-title">Hybrid cloud solutions reaching 100+ active enterprise clients</h3>
+          </div>
+          <div class="it-global-footer">
+            <span class="it-global-meta">February 10, 2026</span>
+            <span class="it-global-meta">6 min read</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="it-global-card">
+        <div class="it-global-card-img" style="background-image: url('https://images.pexels.com/photos/12966861/pexels-photo-12966861.jpeg');"></div>
+        <div class="it-global-card-overlay"></div>
+        <div class="it-global-card-content">
+          <div>
+            <span class="it-global-tag">TECH</span>
+            <h3 class="it-global-card-title">Next-gen cybersecurity corridor connects London & Johannesburg</h3>
+          </div>
+          <div class="it-global-footer">
+            <span class="it-global-meta">February 05, 2026</span>
+            <span class="it-global-meta">5 min read</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="it-global-card">
+        <div class="it-global-card-img" style="background-image: url('https://images.pexels.com/photos/13167328/pexels-photo-13167328.jpeg');"></div>
+        <div class="it-global-card-overlay"></div>
+        <div class="it-global-card-content">
+          <div>
+            <span class="it-global-tag">AI</span>
+            <h3 class="it-global-card-title">Automating multipurpose IT workflows for global scale</h3>
+          </div>
+          <div class="it-global-footer">
+            <span class="it-global-meta">January 28, 2026</span>
+            <span class="it-global-meta">8 min read</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="it-global-nav">
+    <button class="it-global-btn it-global-btn-prev" onclick="scrollSlider(-444)">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+    </button>
+    <button class="it-global-btn it-global-btn-next" onclick="scrollSlider(444)">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+    </button>
+  </div>
+</section>
+
+<script>
+  function scrollSlider(amount) {
+    const track = document.getElementById('itTrack');
+    track.scrollBy({ left: amount, behavior: 'smooth' });
+  }
+</script>
+
+
+
+
+
+
+
+
